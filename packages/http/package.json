@@ -1,0 +1,31 @@
+{
+  "name": "@tools/http",
+  "version": "1.0.0",
+  "description": "基于fetchAPI的http请求库",
+  "keywords": [
+    "fetch",
+    "http"
+  ],
+  "author": "张怀 <zh5172@qq.com>",
+  "homepage": "https://github.com/kaneki5172/tools/tree/master/packages/http#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "typings": "dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaneki5172/tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc --outDir dist --declaration --declarationDir dist/types"
+  },
+  "bugs": {
+    "url": "https://github.com/kaneki5172/tools/issues"
+  }
+}
