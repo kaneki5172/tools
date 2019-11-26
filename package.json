@@ -6,9 +6,13 @@
     "type": "git",
     "url": "git@github.com:kaneki5172/tools.git"
   },
+  "scripts": {
+    "build": "lerna run build"
+  },
   "license": "UNLICENSED",
   "devDependencies": {
-    "lerna": "3.19.0"
+    "lerna": "3.19.0",
+    "typescript": "^3.7.2"
   },
   "workspaces": [
     "packages/*"
