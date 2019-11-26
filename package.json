@@ -1,6 +1,12 @@
 {
   "name": "tools",
   "private": true,
+  "homepage": "https://github.com/kaneki5172/tools",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kaneki5172/tools.git"
+  },
+  "license": "UNLICENSED",
   "devDependencies": {
     "lerna": "^3.16.4"
   },
