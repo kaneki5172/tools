@@ -5,4 +5,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.1 (2019-11-27)
 
+**Note:** Version bump only for package @tinytot/rollup-factory
+
+
+
+
+
+## 1.0.1 (2019-11-27)
+
 **Note:** Version bump only for package @tools/rollup-factory
