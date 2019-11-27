@@ -1,6 +1,6 @@
 {
   "*.{js,ts,jsx,tsx}": [
-    "cross-env ESLINT_ENV='production' eslint --fix --quiet",
+    "eslint --fix --quiet",
     "prettier --write",
     "git add"
   ],
