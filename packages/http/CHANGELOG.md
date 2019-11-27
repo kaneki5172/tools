@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/kaneki5172/tools/compare/@tools/http@1.1.1...@tools/http@1.1.2) (2019-11-27)
+
+**Note:** Version bump only for package @tools/http
+
+
+
+
+
 ## [1.1.1](https://github.com/kaneki5172/tools/compare/@tools/http@1.1.0...@tools/http@1.1.1) (2019-11-27)
 
 **Note:** Version bump only for package @tools/http
