@@ -9,7 +9,8 @@
   "author": "张怀 <zh5172@qq.com>",
   "homepage": "https://github.com/kaneki5172/tools/tree/master/packages/http#readme",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "dist/index.bundle.js",
+  "module": "dist/index.esm.js",
   "files": [
     "dist"
   ],
@@ -23,9 +24,22 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "tsc --outDir dist --declaration --declarationDir dist/types"
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "npm run build:types && npm run build:rollup",
+    "build:rollup": "rollup --config rollup.config.js",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types"
   },
   "bugs": {
     "url": "https://github.com/kaneki5172/tools/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "rollup": "^1.27.5",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
