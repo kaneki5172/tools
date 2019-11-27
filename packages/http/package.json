@@ -6,8 +6,8 @@
     "fetch",
     "http"
   ],
-  "author": "张怀 <zh5172@qq.com>",
-  "homepage": "https://github.com/kaneki5172/tools/tree/master/packages/http#readme",
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/http#readme",
   "license": "ISC",
   "main": "dist/index.bundle.js",
   "module": "dist/index.esm.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaneki5172/tools.git"
+    "url": "git+https://github.com/tinytot1/tools.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
@@ -31,7 +31,7 @@
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types"
   },
   "bugs": {
-    "url": "https://github.com/kaneki5172/tools/issues"
+    "url": "https://github.com/tinytot1/tools/issues"
   },
   "devDependencies": {
     "@tinytot/rollup-factory": "^1.0.1"

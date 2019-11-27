@@ -2,8 +2,8 @@
   "name": "@tinytot/rollup-factory",
   "version": "1.0.1",
   "description": "> TODO: description",
-  "author": "张怀 <zh5172@qq.com>",
-  "homepage": "https://github.com/kaneki5172/tools/tree/master/packages/rollup-factory#readme",
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/rollup-factory#readme",
   "license": "ISC",
   "main": "src/index.js",
   "files": [
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaneki5172/tools.git"
+    "url": "git+https://github.com/tinytot1/tools.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "echo 'nothing to build but lerna need this to build deps'"
   },
   "bugs": {
-    "url": "https://github.com/kaneki5172/tools/issues"
+    "url": "https://github.com/tinytot1/tools/issues"
   },
   "dependencies": {
     "@babel/core": "^7.7.4",

@@ -1,10 +1,10 @@
 {
   "name": "tools",
   "private": true,
-  "homepage": "https://github.com/kaneki5172/tools",
+  "homepage": "https://github.com/tinytot1/tools",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kaneki5172/tools.git"
+    "url": "git@github.com:tinytot1/tools.git"
   },
   "scripts": {
     "build": "lerna run build"
