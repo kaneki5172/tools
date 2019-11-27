@@ -12,7 +12,7 @@
       "npmClient": "npm",
       "allowBranch": "master",
       "message": "chore(release): publish",
-      "registry": "https://registry.npm.easyops"
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
