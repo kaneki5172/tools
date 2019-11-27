@@ -34,12 +34,6 @@
     "url": "https://github.com/kaneki5172/tools/issues"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "@babel/preset-typescript": "^7.7.4",
-    "rollup": "^1.27.5",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "@tools/rollup-factory": "^1.0.0"
   }
 }
