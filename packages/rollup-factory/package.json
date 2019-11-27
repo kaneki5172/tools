@@ -1,6 +1,6 @@
 {
-  "name": "@tools/rollup-factory",
-  "version": "1.0.1",
+  "name": "@tinytot/rollup-factory",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "张怀 <zh5172@qq.com>",
   "homepage": "https://github.com/kaneki5172/tools/tree/master/packages/rollup-factory#readme",
