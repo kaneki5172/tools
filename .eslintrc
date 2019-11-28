@@ -1,3 +1,12 @@
 {
-  "extends": "@tinytot/eslint-config"
+  "extends": "@tinytot/eslint-config",
+  "overrides": [
+    {
+      "files": [
+        "packages/rollup-factory/src/**/*.{ts,js}"
+        
+      ],
+      "extends": "@tinytot/eslint-config/node"
+    }
+  ]
 }
