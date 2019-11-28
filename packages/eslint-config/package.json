@@ -1,0 +1,27 @@
+{
+  "name": "@tinytot/eslint-config",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/eslint-config#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytot1/tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinytot1/tools/issues"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "eslint": ">= 6"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.9.0",
+    "@typescript-eslint/parser": "2.9.0",
+    "eslint-config-prettier": "6.7.0"
+  }
+}
