@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "independent",
   "useWorkspaces": true,
   "npmClient": "yarn",
@@ -13,6 +11,17 @@
       "allowBranch": "master",
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "changelog": {
+    "repo": "tinytot1/tools",
+    "cacheDir": ".changelog",
+    "labels": {
+      "feat": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "doc": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
     }
   }
 }
