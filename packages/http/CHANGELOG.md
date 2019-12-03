@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/tinytot1/tools/compare/@tinytot/http@1.2.0...@tinytot/http@1.3.0) (2019-12-03)
+
+### Features
+
+- **@tinytot/http:** 增加 request interceptors ([295943a](https://github.com/tinytot1/tools/commit/295943a494ec062f26f0426d0d274e8afc22aa9d))
+
 # [1.2.0](https://github.com/tinytot1/tools/compare/@tinytot/http@1.1.3...@tinytot/http@1.2.0) (2019-12-03)
 
 ### Features
