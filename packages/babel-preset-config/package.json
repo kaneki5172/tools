@@ -1,0 +1,29 @@
+{
+  "name": "@tinytot/babel-preset-config",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/babel-preset-config#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytot1/tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tinytot1/tools/issues"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "@babel/core": ">= 7.7.4"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4"
+  }
+}
