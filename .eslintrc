@@ -3,8 +3,8 @@
   "overrides": [
     {
       "files": [
-        "packages/rollup-factory/src/**/*.{ts,js}"
-        
+        "packages/rollup-factory/src/**/*.{ts,js}",
+        "packages/babel-preset-config/**/*.js"
       ],
       "extends": "@tinytot/eslint-config/node"
     }
