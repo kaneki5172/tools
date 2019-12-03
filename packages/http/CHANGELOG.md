@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/tinytot1/tools/compare/@tinytot/http@1.1.3...@tinytot/http@1.2.0) (2019-12-03)
+
+### Features
+
+- **@tinytot/http:** 完成增删改查特性 ([d8600b2](https://github.com/tinytot1/tools/commit/d8600b262a06eb870f64c5000edbdb77ec8cbb6a))
+
 ## [1.1.3](https://github.com/tinytot1/tools/compare/@tinytot/http@1.1.2...@tinytot/http@1.1.3) (2019-12-03)
 
 **Note:** Version bump only for package @tinytot/http
