@@ -14,7 +14,8 @@ module.exports = {
     node: true
   },
   rules: {
-    "no-console": "off",
-    "@typescript-eslint/explicit-function-return-type": ["warn", { allowExpressions: true }]
+    "no-console": "error",
+    "@typescript-eslint/explicit-function-return-type": ["warn", { allowExpressions: true }],
+    "@typescript-eslint/no-explicit-any": "off"
   }
 };
