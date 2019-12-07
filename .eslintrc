@@ -4,7 +4,8 @@
     {
       "files": [
         "packages/rollup-factory/src/**/*.{ts,js}",
-        "packages/babel-preset-config/**/*.js"
+        "packages/babel-preset-config/**/*.js",
+        "scripts/**/*.js"
       ],
       "extends": "@tinytot/eslint-config/node"
     }
