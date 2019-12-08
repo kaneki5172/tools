@@ -1,6 +1,9 @@
 const babel = require("rollup-plugin-babel");
 const resolve = require("rollup-plugin-node-resolve");
 const commonjs = require("rollup-plugin-commonjs");
+const json = require("@rollup/plugin-json");
+const path = require("path");
+const packageJson = require(path.join(process.cwd(), "package.json"));
 
 module.exports.rollupFactory = ({ umdName, plugins = [] }) => ({
   input: "src/index.ts",
@@ -17,12 +20,14 @@ module.exports.rollupFactory = ({ umdName, plugins = [] }) => ({
       sourcemap: true
     }
   ],
+  external: Object.keys(packageJson.peerDependencies || {}),
   plugins: [
     ...plugins,
     resolve({
       browser: true,
       extensions: [".mjs", ".js", ".jsx", ".json", ".ts", ".tsx"]
     }),
+    json(),
     commonjs(),
     babel({
       configFile: "../../babel.config.js",
