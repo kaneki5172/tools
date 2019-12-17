@@ -1,5 +1,5 @@
 {
-  "extends": "@tinytot/eslint-config",
+  "extends": "@tinytot/eslint-config/typescript",
   "overrides": [
     {
       "files": [
@@ -7,7 +7,7 @@
         "packages/babel-preset-config/**/*.js",
         "scripts/**/*.js"
       ],
-      "extends": "@tinytot/eslint-config/node"
+      "extends": "@tinytot/eslint-config/typescript-node"
     }
   ]
 }
