@@ -1,19 +1,31 @@
 // Ref https://babeljs.io/docs/en/presets#creating-a-preset
+// Ref https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/user-handbook.md
+
 const presetEnv = require("@babel/preset-env");
 const presetTypescript = require("@babel/preset-typescript");
+const presetReact = require("@babel/preset-react");
 
-module.exports = () => ({
-  presets: [
-    [
-      presetEnv,
-      {
-        modules: false,
-        useBuiltIns: "usage",
-        corejs: {
-          version: 3
+module.exports = () => {
+  const base = {
+    presets: [
+      [
+        presetEnv,
+        {
+          modules: false,
+          useBuiltIns: "entry",
+          corejs: {
+            version: 3
+          }
         }
-      }
-    ],
-    [presetTypescript]
-  ]
-});
+      ],
+      presetTypescript,
+      presetReact
+    ]
+  };
+  return {
+    env: {
+      development: base,
+      production: base
+    }
+  };
+};
