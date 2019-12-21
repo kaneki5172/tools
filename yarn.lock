@@ -1744,10 +1744,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rollup/plugin-json@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/@rollup/plugin-json/download/@rollup/plugin-json-4.0.0.tgz#4462e83c7ad5544bef4a601a6e8450daedc4b69b"
-  integrity sha1-RGLoPHrVVEvvSmAaboRQ2u3Etps=
+"@rollup/plugin-json@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/@rollup/plugin-json/download/@rollup/plugin-json-4.0.1.tgz#223898c6c37993886da06989b0e93ceef52aa3ce"
+  integrity sha1-IjiYxsN5k4htoGmJsOk87vUqo84=
   dependencies:
     rollup-pluginutils "^2.5.0"
 
