@@ -1,7 +1,7 @@
 {
   "name": "@tinytot/container",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "页面容器",
   "author": "张怀 <zh5172@qq.com>",
   "homepage": "https://github.com/tinytot1/tools/tree/master/packages/container#readme",
@@ -19,7 +19,7 @@
     "url": "https://github.com/tinytot1/tools/issues"
   },
   "devDependencies": {
-    "@tinytot/dll": "^0.1.0",
+    "@tinytot/dll": "^0.0.1",
     "@tinytot/http": "^1.3.3",
     "add-asset-html-webpack-plugin": "^3.1.3",
     "babel-loader": "^8.0.6",
