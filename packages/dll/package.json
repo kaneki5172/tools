@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@tinytot/dll",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "张怀 <zh5172@qq.com>",
   "homepage": "https://github.com/tinytot1/tools/tree/master/packages/dll#readme",

@@ -3,16 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.1.0](https://github.com/tinytot1/tools/compare/@tinytot/dll@0.0.1...@tinytot/dll@0.1.0) (2019-12-26)
+# 1.1.0 (2019-12-26)
+
+### Bug Fixes
+
+- **container:** 修复 babel polyfill ([a3a1bc7](https://github.com/tinytot1/tools/commit/a3a1bc7f6fb6e4e6c36df9ca733f255426ae174d))
 
 ### Features
 
-- **dll:** 添加 context ([c3b9aac](https://github.com/tinytot1/tools/commit/c3b9aaccc3c12ac41d09c01bb07277652f323b5f))
+- **container:** init 容器 ([755c0a3](https://github.com/tinytot1/tools/commit/755c0a338029ffe8c6f9708eed20cb4ffb6617c4))
 
 ### Reverts
 
 - Revert "chore(release): publish" ([437a4e2](https://github.com/tinytot1/tools/commit/437a4e28799b24d1caebdaadeb49297b55642c4c))
-
-## 0.0.1 (2019-12-26)
-
-**Note:** Version bump only for package @tinytot/dll
