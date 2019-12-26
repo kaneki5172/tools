@@ -5,8 +5,6 @@
       "files": [
         "packages/rollup-factory/src/**/*.{ts,js}",
         "packages/babel-preset-config/**/*.js",
-        "packages/dll/*.js",
-        "packages/container/**/*.js",
         "packages/browserslist-config/**/*.js",
         "scripts/**/*.js"
       ],
