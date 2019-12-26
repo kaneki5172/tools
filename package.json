@@ -25,6 +25,14 @@
     "rimraf": "^3.0.0",
     "typescript": "3.7.4"
   },
+  "browserslist": {
+    "production": [
+      "extends @tinytot/browserslist-config"
+    ],
+    "development": [
+      "extends @tinytot/browserslist-config/development"
+    ]
+  },
   "workspaces": [
     "packages/*"
   ]
