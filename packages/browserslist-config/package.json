@@ -1,16 +1,16 @@
 {
   "name": "@tinytot/browserslist-config",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "browserslist-config",
   "keywords": [
     "browserslist-config"
   ],
   "main": "index.js",
-  "author": "张怀 <zh5172@qq.com>",
+  "author": "tinytot <zh5172@qq.com>",
   "homepage": "https://github.com/tinytot1/tools/tree/master/packages/browserslist-config#readme",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",
