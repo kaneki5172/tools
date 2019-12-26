@@ -4,8 +4,10 @@ const isProd = process.env.NODE_ENV === "production";
 const packageJson = require("./package.json");
 
 const dist = path.join(__dirname, "dist");
+const context = path.join(__dirname, "..", "..");
 
 module.exports = {
+  context,
   devtool: "source-map",
   mode: isProd ? "production" : "development",
   resolve: {
@@ -23,7 +25,8 @@ module.exports = {
   plugins: [
     new webpack.DllPlugin({
       path: path.join(dist, "[name]-manifest.json"),
-      name: "[name]"
+      name: "[name]",
+      context
     }),
     new webpack.HashedModuleIdsPlugin()
   ]

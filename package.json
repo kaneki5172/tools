@@ -7,7 +7,8 @@
     "url": "git@github.com:tinytot1/tools.git"
   },
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "start": "lerna run start --scope @tinytot/container"
   },
   "license": "UNLICENSED",
   "devDependencies": {
