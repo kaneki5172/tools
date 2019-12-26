@@ -6,7 +6,7 @@
     "browserslist-config"
   ],
   "main": "index.js",
-  "author": "tinytot <zh5172@qq.com>",
+  "author": "tinytot1 <zh5172@qq.com>",
   "homepage": "https://github.com/tinytot1/tools/tree/master/packages/browserslist-config#readme",
   "license": "ISC",
   "publishConfig": {
