@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ '16.12.0', 'react-dom--scope', '@tinytot/dll' ],
+0 silly argv   lernaVersion: '3.19.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'react:'
+0 silly argv }
+1 notice cli v3.19.0
+2 verbose rootPath /Users/kaneki/Desktop/git/tools
+3 info versioning independent
+4 error Error: Unsupported URL Type "react:": react:
+4 error     at unsupportedURLType (/Users/kaneki/Desktop/git/tools/node_modules/npm-package-arg/npa.js:200:15)
+4 error     at fromURL (/Users/kaneki/Desktop/git/tools/node_modules/npm-package-arg/npa.js:258:13)
+4 error     at resolve (/Users/kaneki/Desktop/git/tools/node_modules/npm-package-arg/npa.js:77:12)
+4 error     at npa (/Users/kaneki/Desktop/git/tools/node_modules/npm-package-arg/npa.js:52:10)
+4 error     at AddCommand.initialize (/Users/kaneki/Desktop/git/tools/node_modules/@lerna/add/index.js:39:17)
