@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.1.1...@tinytot/eslint-config@1.1.2) (2019-12-27)
+
+### Bug Fixes
+
+- **eslint-config:** 添加依赖 eslint-plugin-react ([84b8583](https://github.com/tinytot1/tools/commit/84b85835d15bbead1d44116472853aa8b0c1fd84))
+
 ## [1.1.1](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.1.0...@tinytot/eslint-config@1.1.1) (2019-12-26)
 
 **Note:** Version bump only for package @tinytot/eslint-config
