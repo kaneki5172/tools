@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const ScanCustomElementsPlugin = require("./ScanCustomElementsPlugin");
 
 const getStyleLoaders = cssOptions => [
   {
@@ -19,6 +20,9 @@ const getStyleLoaders = cssOptions => [
 module.exports = () => {
   const cwdDirname = process.cwd();
   const appRoot = path.join(cwdDirname, "..", "..");
+
+  const packageJson = require(path.join(cwdDirname, "package.json"));
+  const packageName = packageJson.name.split("/")[1];
 
   return {
     context: appRoot,
@@ -76,6 +80,7 @@ module.exports = () => {
     },
     plugins: [
       new CleanWebpackPlugin(),
+      new ScanCustomElementsPlugin(packageName),
       new webpack.DllReferencePlugin({
         context: appRoot,
         // 解决该包在 `npm link` 下引用到错误的包路径的问题
