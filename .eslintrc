@@ -6,6 +6,7 @@
         "packages/rollup-factory/src/**/*.{ts,js}",
         "packages/babel-preset-config/**/*.js",
         "packages/browserslist-config/**/*.js",
+        "packages/webpack-config-factory/**/*.js",
         "scripts/**/*.js"
       ],
       "extends": "@tinytot/eslint-config/typescript-node"

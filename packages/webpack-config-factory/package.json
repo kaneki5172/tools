@@ -1,0 +1,40 @@
+{
+  "name": "@tinytot/webpack-config-factory",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/webpack-config-factory#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytot1/tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tinytot1/tools/issues"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  }
+}
