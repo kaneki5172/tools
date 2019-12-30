@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/tinytot1/tools/compare/@tinytot/browserslist-config@0.11.0...@tinytot/browserslist-config@1.0.0) (2019-12-30)
+
+### Features
+
+- **browserslist-config:** 兼容 > 1% ([07995e8](https://github.com/tinytot1/tools/commit/07995e80274986135f031196395586b915755242))
+
 # [0.11.0](https://github.com/tinytot1/tools/compare/@tinytot/browserslist-config@0.10.1...@tinytot/browserslist-config@0.11.0) (2019-12-30)
 
 ### Features
