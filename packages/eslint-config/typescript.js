@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     "no-console": "error",
     "max-params": ["error", 4],
-    "@typescript-eslint/explicit-member-accessibility": "off"
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-parameter-properties": "off"
   }
 };
