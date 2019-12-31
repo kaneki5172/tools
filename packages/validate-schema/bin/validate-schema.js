@@ -23,5 +23,6 @@ const chalk = require("chalk");
 
 const valid = ajv.validate(schema, JSON.parse(fs.readFileSync(storyboard, "utf8")));
 if (!valid) {
-  console.log(chalk.bgKeyword("red")(JSON.stringify(ajv.errors)));
+  console.log(chalk.red(JSON.stringify(ajv.errors)));
+  process.exitCode = 1;
 }
