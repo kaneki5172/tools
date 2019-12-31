@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/tinytot1/tools/compare/@tinytot/validate-schema@0.1.0...@tinytot/validate-schema@1.0.0) (2019-12-31)
+
+### Features
+
+- **validate-schema:** use .validate-schema.js ([054c168](https://github.com/tinytot1/tools/commit/054c168f72e2121946d1f13c4aab4f0d071b359c))
+
 # 0.1.0 (2019-12-31)
 
 ### Features
