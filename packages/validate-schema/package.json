@@ -1,0 +1,37 @@
+{
+  "name": "@tinytot/validate-schema",
+  "version": "0.0.0",
+  "description": "validate json schema",
+  "keywords": [
+    "json",
+    "schema"
+  ],
+  "author": "tinytot1 <zh5172@qq.com>",
+  "homepage": "https://github.com/tinytot1/tools/tree/master/packages/validate-schema#readme",
+  "license": "ISC",
+  "main": "bin/validate-schema.js",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "validate-schema": "./bin/validate-schema.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytot1/tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tinytot1/tools/issues"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1"
+  }
+}
