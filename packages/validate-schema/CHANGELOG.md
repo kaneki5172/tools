@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/tinytot1/tools/compare/@tinytot/validate-schema@1.0.0...@tinytot/validate-schema@1.1.0) (2019-12-31)
+
+### Features
+
+- **validate-schema:** 验证 json 格式不合法，退出执行 ([9095387](https://github.com/tinytot1/tools/commit/90953873a1d633f2ee6694b16270c5c9b5a7559b))
+
 # [1.0.0](https://github.com/tinytot1/tools/compare/@tinytot/validate-schema@0.1.0...@tinytot/validate-schema@1.0.0) (2019-12-31)
 
 ### Features
