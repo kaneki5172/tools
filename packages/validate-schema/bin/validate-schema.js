@@ -2,27 +2,22 @@
 
 /* eslint-disable no-console */
 const fs = require("fs");
+const path = require("path");
 const Ajv = require("ajv");
 const ajv = new Ajv();
-const program = require("commander");
 
-const packageJson = require("../package");
+const packageRoot = process.cwd();
+let validateSchema = {
+  storyboard: path.join(packageRoot, "storyboard.json"),
+  schema: require("@tinytot/kit/.schema/storyboard.json")
+};
 
-program
-  .version(`${packageJson.name} ${packageJson.version}`)
-  .requiredOption("--input", "input json path")
-  .requiredOption("--schema", "schema json path");
+if (fs.existsSync(path.join(packageRoot, ".validate-schema.js"))) {
+  validateSchema = require(path.join(packageRoot, ".validate-schema.js"));
+}
 
-program.on("--help", () => {
-  console.log("");
-  console.log("Examples:");
-  console.log("  $ validate-schema --input /path/to/input.json --schema /path/to/schema.json");
-});
-
-program.parse(process.argv);
-
-const storyboard = program.input;
-const schema = program.schema;
+const storyboard = validateSchema.storyboard;
+const schema = validateSchema.schema;
 
 const chalk = require("chalk");
 
