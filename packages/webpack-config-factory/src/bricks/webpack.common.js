@@ -45,10 +45,9 @@ module.exports = () => {
             rootMode: "upward"
           }
         },
-
         {
           test: /\.css$/,
-          exclude: /\.module\.css$/,
+          exclude: /\.(module|shadow)\.css$/,
           sideEffects: true,
           use: ["style-loader", ...getStyleLoaders()]
         },
@@ -61,6 +60,11 @@ module.exports = () => {
               localIdentName: "[local]--[hash:base64:8]"
             })
           ]
+        },
+        {
+          test: /\.shadow\.css$/,
+          sideEffects: true,
+          use: ["to-string-loader", ...getStyleLoaders()]
         },
         {
           test: /\.less$/,
