@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.3.0...@tinytot/webpack-config-factory@1.3.1) (2020-01-09)
+
+### Bug Fixes
+
+- **webpack-config-factory:** 修复 css module ([316e7db](https://github.com/tinytot1/tools/commit/316e7dbcfe92ddb8bcaf3a04116092186474fe1c))
+
 # [1.3.0](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.2.0...@tinytot/webpack-config-factory@1.3.0) (2020-01-03)
 
 ### Features
