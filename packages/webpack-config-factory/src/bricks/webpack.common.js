@@ -56,8 +56,9 @@ module.exports = () => {
           use: [
             "style-loader",
             ...getStyleLoaders({
-              modules: true,
-              localIdentName: "[local]--[hash:base64:8]"
+              modules: {
+                localIdentName: "[local]--[hash:base64:8]"
+              }
             })
           ]
         },
