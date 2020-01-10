@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.4.1...@tinytot/webpack-config-factory@1.5.0) (2020-01-10)
+
+### Features
+
+- **webpack-config-factory:** 支持多个 dll 库 ([e287b95](https://github.com/tinytot1/tools/commit/e287b954952dd63eda2a381e36544b86dd678c20))
+
 ## [1.4.1](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.4.0...@tinytot/webpack-config-factory@1.4.1) (2020-01-10)
 
 ### Bug Fixes
