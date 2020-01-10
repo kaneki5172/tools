@@ -2,6 +2,8 @@ const path = require("path");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ScanCustomElementsPlugin = require("./ScanCustomElementsPlugin");
+const DLL_LIBS = "@tinytot/dll";
+const dllManifest = require(DLL_LIBS);
 
 const getStyleLoaders = cssOptions => [
   {
@@ -141,12 +143,15 @@ module.exports = () => {
     plugins: [
       new CleanWebpackPlugin(),
       new ScanCustomElementsPlugin(packageName),
-      new webpack.DllReferencePlugin({
-        context: appRoot,
-        // 解决该包在 `npm link` 下引用到错误的包路径的问题
-        manifest: require(require.resolve("@tinytot/dll", {
-          paths: [cwdDirname]
-        }))
+
+      ...dllManifest.map(manifest => {
+        return new webpack.DllReferencePlugin({
+          context: appRoot,
+          // 解决该包在 `npm link` 下引用到错误的包路径的问题
+          manifest: require(require.resolve(path.join(DLL_LIBS, manifest.manifest)), {
+            paths: [cwdDirname]
+          })
+        });
       })
     ]
   };
