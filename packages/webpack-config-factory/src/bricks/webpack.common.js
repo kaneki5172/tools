@@ -17,7 +17,7 @@ const getStyleLoaders = cssOptions => [
   }
 ];
 
-const getImageLoaderOptions = () => ({
+const getImageLoaderOptions = distPublicPath => ({
   exclude: /node_modules/,
   use: [
     {
@@ -25,7 +25,8 @@ const getImageLoaderOptions = () => ({
       options: {
         name: "assets/[name].[hash:8].[ext]",
         limit: 8192,
-        esModule: false
+        esModule: false,
+        publicPath: distPublicPath
       }
     }
   ]
@@ -37,6 +38,13 @@ module.exports = () => {
 
   const packageJson = require(path.join(cwdDirname, "package.json"));
   const packageName = packageJson.name.split("/")[1];
+
+  const pkgRelativeRoot = path.relative(appRoot, cwdDirname);
+  const distPublicPath = pkgRelativeRoot
+    .split(path.sep)
+    .concat("dist")
+    .join("/");
+  const imageLoaderOptions = getImageLoaderOptions(distPublicPath);
 
   return {
     context: appRoot,
@@ -78,7 +86,7 @@ module.exports = () => {
                 babel: false
               }
             },
-            ...getImageLoaderOptions().use
+            ...imageLoaderOptions.use
           ]
         },
         {
@@ -86,11 +94,11 @@ module.exports = () => {
           issuer: {
             exclude: /\.(ts|js)x?$/
           },
-          ...getImageLoaderOptions()
+          ...imageLoaderOptions
         },
         {
           test: /\.(png|jpe?g|gif)$/i,
-          ...getImageLoaderOptions()
+          ...imageLoaderOptions
         },
         {
           test: /\.css$/,
