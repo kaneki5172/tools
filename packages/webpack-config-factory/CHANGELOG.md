@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.4.0...@tinytot/webpack-config-factory@1.4.1) (2020-01-10)
+
+### Bug Fixes
+
+- **webpack-config-factory:** 修复加载文件 publicPath ([65ccd28](https://github.com/tinytot1/tools/commit/65ccd28c15300c2b64ad6b2c70167ffc084a060d))
+
 # [1.4.0](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.3.1...@tinytot/webpack-config-factory@1.4.0) (2020-01-10)
 
 ### Features
