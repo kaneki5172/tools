@@ -17,6 +17,20 @@ const getStyleLoaders = cssOptions => [
   }
 ];
 
+const getImageLoaderOptions = () => ({
+  exclude: /node_modules/,
+  use: [
+    {
+      loader: "url-loader",
+      options: {
+        name: "assets/[name].[hash:8].[ext]",
+        limit: 8192,
+        esModule: false
+      }
+    }
+  ]
+});
+
 module.exports = () => {
   const cwdDirname = process.cwd();
   const appRoot = path.join(cwdDirname, "..", "..");
@@ -44,6 +58,39 @@ module.exports = () => {
           options: {
             rootMode: "upward"
           }
+        },
+        {
+          test: /\.svg$/,
+          exclude: /node_modules/,
+          issuer: {
+            test: /\.(ts|js)x?$/
+          },
+          use: [
+            {
+              loader: "babel-loader",
+              options: {
+                rootMode: "upward"
+              }
+            },
+            {
+              loader: "@svgr/webpack",
+              options: {
+                babel: false
+              }
+            },
+            ...getImageLoaderOptions().use
+          ]
+        },
+        {
+          test: /\.svg$/,
+          issuer: {
+            exclude: /\.(ts|js)x?$/
+          },
+          ...getImageLoaderOptions()
+        },
+        {
+          test: /\.(png|jpe?g|gif)$/i,
+          ...getImageLoaderOptions()
         },
         {
           test: /\.css$/,
