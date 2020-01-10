@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.3.1...@tinytot/webpack-config-factory@1.4.0) (2020-01-10)
+
+### Features
+
+- 支持图片、svg 引入、支持 svgComponent ([66de077](https://github.com/tinytot1/tools/commit/66de0774926d434e9f7b641641d9e3233ddb4470))
+
 ## [1.3.1](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.3.0...@tinytot/webpack-config-factory@1.3.1) (2020-01-09)
 
 ### Bug Fixes
