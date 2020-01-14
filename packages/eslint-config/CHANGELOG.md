@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.3.0...@tinytot/eslint-config@1.4.0) (2020-01-14)
+
+### Features
+
+- **eslint-config:** no-useless-constructor ([ca57d37](https://github.com/tinytot1/tools/commit/ca57d37a69d5f908ff42b522d6afb4f0d10c48d3))
+
 # [1.3.0](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.2.0...@tinytot/eslint-config@1.3.0) (2020-01-14)
 
 ### Features
