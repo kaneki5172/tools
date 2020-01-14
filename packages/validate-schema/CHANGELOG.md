@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/tinytot1/tools/compare/@tinytot/validate-schema@1.2.0...@tinytot/validate-schema@1.2.1) (2020-01-14)
+
+### Bug Fixes
+
+- **validate-schema:** filter ([2f0bf2d](https://github.com/tinytot1/tools/commit/2f0bf2d0b12cf647579141574ef073caae884a35))
+
 # [1.2.0](https://github.com/tinytot1/tools/compare/@tinytot/validate-schema@1.1.0...@tinytot/validate-schema@1.2.0) (2020-01-14)
 
 ### Features

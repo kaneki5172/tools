@@ -1,6 +1,6 @@
 {
   "name": "@tinytot/validate-schema",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "validate json schema",
   "keywords": [
     "json",
