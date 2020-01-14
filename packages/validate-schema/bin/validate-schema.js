@@ -17,7 +17,12 @@ if (fs.existsSync(path.join(packageRoot, ".validate-schema.js"))) {
 }
 
 const storyboard = validateSchema.storyboard;
-const schema = validateSchema.schema;
+const schema = {};
+for (const [key, value] of Object.entries(validateSchema.schema)) {
+  if (key !== "$schema") {
+    schema[key] = value;
+  }
+}
 
 const chalk = require("chalk");
 
