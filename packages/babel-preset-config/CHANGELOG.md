@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.2.0...@tinytot/babel-preset-config@1.3.0) (2020-01-14)
+
+### Features
+
+- **babel-preset-config:** feat typescript optional chain ([934c1e5](https://github.com/tinytot1/tools/commit/934c1e5b661434250447cf09b96565d31d7df2f7))
+
 # [1.2.0](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.1.1...@tinytot/babel-preset-config@1.2.0) (2020-01-03)
 
 ### Features
