@@ -16,17 +16,17 @@ if (fs.existsSync(path.join(packageRoot, ".validate-schema.js"))) {
   validateSchema = require(path.join(packageRoot, ".validate-schema.js"));
 }
 
-const storyboard = validateSchema.storyboard;
-const schema = {};
-for (const [key, value] of Object.entries(validateSchema.schema)) {
+const storyboard = {};
+const schema = validateSchema.schema;
+for (const [key, value] of Object.entries(JSON.parse(fs.readFileSync(validateSchema.storyboard, "utf8")))) {
   if (key !== "$schema") {
-    schema[key] = value;
+    storyboard[key] = value;
   }
 }
 
 const chalk = require("chalk");
 
-const valid = ajv.validate(schema, JSON.parse(fs.readFileSync(storyboard, "utf8")));
+const valid = ajv.validate(schema, storyboard);
 if (!valid) {
   console.log(chalk.red(JSON.stringify(ajv.errors)));
   process.exitCode = 1;
