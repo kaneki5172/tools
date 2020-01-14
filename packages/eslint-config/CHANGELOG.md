@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.2.0...@tinytot/eslint-config@1.3.0) (2020-01-14)
+
+### Features
+
+- **eslint-config:** add react-hooks rules ([4d96085](https://github.com/tinytot1/tools/commit/4d96085c22f27ce151b56a3489ca5f32350801d7))
+
 # [1.2.0](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.1.6...@tinytot/eslint-config@1.2.0) (2020-01-13)
 
 ### Features
