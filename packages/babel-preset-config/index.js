@@ -25,11 +25,12 @@ module.exports = () => {
       presetReact
     ],
     plugins: [
-      {
-        proposalDecorators: {
+      [
+        proposalDecorators,
+        {
           decoratorsBeforeExport: true
         }
-      },
+      ],
       proposalClassProperties,
       proposalOptionalChaining
     ]
