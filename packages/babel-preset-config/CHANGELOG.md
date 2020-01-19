@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.4.0...@tinytot/babel-preset-config@1.4.1) (2020-01-19)
+
+### Bug Fixes
+
+- **babel-preset-config:** feat decorators ([604c574](https://github.com/tinytot1/tools/commit/604c5748ecd481d7998829d17f358d2b4b28b394))
+
 # [1.4.0](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.3.1...@tinytot/babel-preset-config@1.4.0) (2020-01-19)
 
 ### Features
