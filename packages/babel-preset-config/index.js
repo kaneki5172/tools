@@ -6,6 +6,7 @@ const presetTypescript = require("@babel/preset-typescript");
 const presetReact = require("@babel/preset-react");
 const proposalClassProperties = require("@babel/plugin-proposal-class-properties");
 const proposalOptionalChaining = require("@babel/plugin-proposal-optional-chaining");
+const proposalDecorators = require("@babel/plugin-proposal-decorators");
 
 module.exports = () => {
   const base = {
@@ -23,7 +24,15 @@ module.exports = () => {
       presetTypescript,
       presetReact
     ],
-    plugins: [proposalClassProperties, proposalOptionalChaining]
+    plugins: [
+      {
+        proposalDecorators: {
+          decoratorsBeforeExport: true
+        }
+      },
+      proposalClassProperties,
+      proposalOptionalChaining
+    ]
   };
   return {
     env: {
