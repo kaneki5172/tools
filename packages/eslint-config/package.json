@@ -18,7 +18,7 @@
   "sideEffects": false,
   "peerDependencies": {
     "eslint": ">= 6.8.0",
-    "typescript": ">= 3.7.4"
+    "typescript": ">= 3.7.5"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.16.0",
