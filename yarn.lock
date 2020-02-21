@@ -4895,10 +4895,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-alloy@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npm.taobao.org/eslint-config-alloy/download/eslint-config-alloy-3.5.0.tgz?cache=0&sync_timestamp=1577675663719&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-config-alloy%2Fdownload%2Feslint-config-alloy-3.5.0.tgz#a82ed3f51a5d9835b1d1aace0d78c2486236e309"
-  integrity sha1-qC7T9RpdmDWx0arODXjCSGI24wk=
+eslint-config-alloy@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/eslint-config-alloy/download/eslint-config-alloy-3.6.0.tgz#86bb9663730de7f5cc664d0427ff5eba1986a398"
+  integrity sha1-hruWY3MN5/XMZk0EJ/9euhmGo5g=
 
 eslint-plugin-react-hooks@^2.3.0:
   version "2.3.0"
