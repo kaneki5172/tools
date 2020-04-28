@@ -30,7 +30,7 @@
     "url": "https://github.com/tinytot1/tools/issues"
   },
   "dependencies": {
-    "ajv": "^6.11.0",
+    "ajv": "^6.12.2",
     "chalk": "^3.0.0"
   }
 }
