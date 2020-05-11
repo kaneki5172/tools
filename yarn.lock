@@ -2587,19 +2587,21 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rollup/plugin-json@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.npm.taobao.org/@rollup/plugin-json/download/@rollup/plugin-json-4.0.2.tgz#482185ee36ac7dd21c346e2dbcc22ffed0c6f2d6"
-  integrity sha1-SCGF7jasfdIcNG4tvMIv/tDG8tY=
+"@rollup/plugin-json@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/@rollup/plugin-json/download/@rollup/plugin-json-4.0.3.tgz#747e2c2884c5a0fa00b66c9c0f3f1012cddca534"
+  integrity sha1-dH4sKITFoPoAtmycDz8QEs3cpTQ=
   dependencies:
-    "@rollup/pluginutils" "^3.0.4"
+    "@rollup/pluginutils" "^3.0.8"
 
-"@rollup/pluginutils@^3.0.4":
-  version "3.0.6"
-  resolved "https://registry.npm.taobao.org/@rollup/pluginutils/download/@rollup/pluginutils-3.0.6.tgz#3ae0bbbce2eed53bf46b7fba8c393557c6c7f705"
-  integrity sha1-OuC7vOLu1Tv0a3+6jDk1V8bH9wU=
+"@rollup/pluginutils@^3.0.8":
+  version "3.0.10"
+  resolved "https://registry.npm.taobao.org/@rollup/pluginutils/download/@rollup/pluginutils-3.0.10.tgz#a659b9025920378494cd8f8c59fbf9b3a50d5f12"
+  integrity sha1-plm5AlkgN4SUzY+MWfv5s6UNXxI=
   dependencies:
+    "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
+    picomatch "^2.2.2"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -8136,6 +8138,11 @@ picomatch@^2.0.5:
   version "2.1.1"
   resolved "https://registry.npm.taobao.org/picomatch/download/picomatch-2.1.1.tgz#ecdfbea7704adb5fe6fb47f9866c4c0e15e905c5"
   integrity sha1-7N++p3BK21/m+0f5hmxMDhXpBcU=
+
+picomatch@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/picomatch/download/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
+  integrity sha1-IfMz6ba46v8CRo9RRupAbTRfTa0=
 
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
