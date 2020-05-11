@@ -1,16 +1,17 @@
 {
-  "extends": "@tinytot/eslint-config/typescript",
+  "extends": "@tinytot/eslint-config",
   "overrides": [
     {
       "files": [
-        "packages/rollup-factory/src/**/*.{ts,js}",
-        "packages/babel-preset-config/**/*.js",
-        "packages/browserslist-config/**/*.js",
-        "packages/webpack-config-factory/**/*.js",
-        "packages/validate-schema/**/*.js",
-        "scripts/**/*.js"
+        "packages/**/*.ts"
       ],
-      "extends": "@tinytot/eslint-config/typescript-node"
+      "extends": "@tinytot/eslint-config/typescript"
+    },
+    {
+      "files": [
+        "packages/**/*.tsx"
+      ],
+      "extends": "@tinytot/eslint-config/react"
     }
   ]
 }
