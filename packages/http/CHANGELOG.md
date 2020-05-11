@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.8](https://github.com/tinytot1/tools/compare/@tinytot/http@1.3.7...@tinytot/http@1.3.8) (2020-05-11)
+
+**Note:** Version bump only for package @tinytot/http
+
 ## [1.3.7](https://github.com/tinytot1/tools/compare/@tinytot/http@1.3.6...@tinytot/http@1.3.7) (2020-01-14)
 
 **Note:** Version bump only for package @tinytot/http

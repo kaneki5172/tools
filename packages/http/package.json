@@ -1,6 +1,6 @@
 {
   "name": "@tinytot/http",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "description": "基于fetchAPI的http请求库",
   "keywords": [
     "fetch",
@@ -36,6 +36,6 @@
     "url": "https://github.com/tinytot1/tools/issues"
   },
   "devDependencies": {
-    "@tinytot/rollup-factory": "^1.0.10"
+    "@tinytot/rollup-factory": "^1.0.11"
   }
 }
