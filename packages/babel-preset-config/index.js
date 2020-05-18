@@ -17,28 +17,54 @@ module.exports = () => {
           modules: false,
           useBuiltIns: "entry",
           corejs: {
-            version: 3
-          }
-        }
+            version: 3,
+          },
+        },
       ],
       presetTypescript,
-      presetReact
+      presetReact,
     ],
     plugins: [
       [
         proposalDecorators,
         {
-          decoratorsBeforeExport: true
-        }
+          decoratorsBeforeExport: true,
+        },
       ],
       proposalClassProperties,
-      proposalOptionalChaining
-    ]
+      proposalOptionalChaining,
+    ],
+  };
+
+  const test = {
+    presets: [
+      [
+        presetEnv,
+        {
+          targets: {
+            node: "current",
+          },
+        },
+      ],
+      presetTypescript,
+      presetReact,
+    ],
+    plugins: [
+      [
+        proposalDecorators,
+        {
+          decoratorsBeforeExport: true,
+        },
+      ],
+      proposalClassProperties,
+      proposalOptionalChaining,
+    ],
   };
   return {
     env: {
+      test,
       development: base,
-      production: base
-    }
+      production: base,
+    },
   };
 };
