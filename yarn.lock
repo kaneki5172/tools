@@ -4571,10 +4571,10 @@ eslint-config-alloy@^3.7.1:
   resolved "https://registry.npm.taobao.org/eslint-config-alloy/download/eslint-config-alloy-3.7.1.tgz#315de2151c6870a207558c290f369333900d413a"
   integrity sha1-MV3iFRxocKIHVYwpDzaTM5ANQTo=
 
-eslint-plugin-react-hooks@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-4.0.1.tgz#c90fbb8726e35aadff94c9613ebd5c4de375412b"
-  integrity sha1-yQ+7hybjWq3/lMlhPr1cTeN1QSs=
+eslint-plugin-react-hooks@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-4.0.2.tgz#03700ca761eacc1b6436074c456f90a8e331ff28"
+  integrity sha1-A3AMp2HqzBtkNgdMRW+QqOMx/yg=
 
 eslint-plugin-react@^7.20.0:
   version "7.20.0"
