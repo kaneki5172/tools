@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.4](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.5.3...@tinytot/webpack-config-factory@1.5.4) (2020-05-18)
+
+### Reverts
+
+- Revert "chore(release): publish" ([d2a029b](https://github.com/tinytot1/tools/commit/d2a029b69aa0c38b2d4167c4963f7bb644a3ec58))
+
 ## [1.5.3](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.5.2...@tinytot/webpack-config-factory@1.5.3) (2020-05-11)
 
 **Note:** Version bump only for package @tinytot/webpack-config-factory

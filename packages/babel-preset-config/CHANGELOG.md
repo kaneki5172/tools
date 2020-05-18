@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.4.2...@tinytot/babel-preset-config@1.5.0) (2020-05-18)
+
+### Features
+
+- **babel-preset-config:** add test environment ([16aad44](https://github.com/tinytot1/tools/commit/16aad446a4e3dacd4f038ae2a7f15bd492e6217f))
+
+### Reverts
+
+- Revert "chore(release): publish" ([d2a029b](https://github.com/tinytot1/tools/commit/d2a029b69aa0c38b2d4167c4963f7bb644a3ec58))
+
 ## [1.4.2](https://github.com/tinytot1/tools/compare/@tinytot/babel-preset-config@1.4.1...@tinytot/babel-preset-config@1.4.2) (2020-05-11)
 
 **Note:** Version bump only for package @tinytot/babel-preset-config

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.4.2...@tinytot/eslint-config@1.4.3) (2020-05-18)
+
+### Reverts
+
+- Revert "chore(release): publish" ([d2a029b](https://github.com/tinytot1/tools/commit/d2a029b69aa0c38b2d4167c4963f7bb644a3ec58))
+
 ## [1.4.2](https://github.com/tinytot1/tools/compare/@tinytot/eslint-config@1.4.1...@tinytot/eslint-config@1.4.2) (2020-05-13)
 
 **Note:** Version bump only for package @tinytot/eslint-config
