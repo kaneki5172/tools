@@ -3,10 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.5.4](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.5.3...@tinytot/webpack-config-factory@1.5.4) (2020-05-18)
-
-**Note:** Version bump only for package @tinytot/webpack-config-factory
-
 ## [1.5.3](https://github.com/tinytot1/tools/compare/@tinytot/webpack-config-factory@1.5.2...@tinytot/webpack-config-factory@1.5.3) (2020-05-11)
 
 **Note:** Version bump only for package @tinytot/webpack-config-factory
