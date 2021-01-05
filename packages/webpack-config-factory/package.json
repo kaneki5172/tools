@@ -29,7 +29,7 @@
     "copy-webpack-plugin": "^6.0.2",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
-    "less": "^3.11.2",
+    "less": "^3.13.1",
     "less-loader": "^6.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.1",
